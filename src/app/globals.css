@@ -2,26 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.btn-primary{
+
+  @apply bg-cyan-600 font-semibold hover:bg-slate-500 text-white md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.aboutImg::after{
+  @apply content-[''] w-full left-0 top-0 rounded-xl rotate-12 h-full absolute bg-gray-500 -z-10
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.swiper-pagination-bullet{
+  @apply bg-white;
+}
+input,textarea{
+  @apply bg-gray-700 outline-none rounded-lg  p-3
+}
+::placeholder{
+  @apply text-lg
+  
+}
+::selection{
+  @apply bg-cyan-600
 }
