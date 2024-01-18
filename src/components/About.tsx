@@ -33,12 +33,13 @@ Me
 
     <div className='text-gray-300 my-3 '>
         <p className='text-justify leading-7 w-11/12'>
-        Hey, I'm Muhammad Bilal, Freelance Front-end 
+        Hey, I m Muhammad Bilal, Freelance Front-end 
         Developer with over 4 years of experience.
      The average Developer tends to be methodical, structured, 
      and serious. They can be very 
       organized and attentive to detail,
-    especially when given plenty of personal space to think and work privately.
+    especially when given plenty of personal
+     space to think and work privately.
         </p>
         <div className='flex items-center mt-10 gap-7 '>
            {
