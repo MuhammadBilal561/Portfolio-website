@@ -18,7 +18,7 @@ const Hireme = () => {
     DO You Hve Any Work?
 </p>
 </div>
-<div className=' bg-gray-700 relative px-8 py-5 rounded-2xl lg:max-w-4xl mx-auto min-h-[24rem] mt-24 
+<div className=' relative px-8 py-5 rounded-2xl lg:max-w-4xl mx-auto min-h-[24rem] mt-24 
 flex gap-6 lg:flex-row flex-col-reverse items-center'>
     <div>
         <h2 className='text-2xl font-semibold'>

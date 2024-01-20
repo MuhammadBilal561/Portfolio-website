@@ -13,7 +13,7 @@ import Bot from "@/components/Bot"
 
 export default function Home() {
   return(
-  <main className='bg-black'>
+  <main className='bg-site bg-no-repeat bg-cover overflow-hidden'>
 
     <Navbar/>
     <Bot/>
@@ -24,7 +24,7 @@ export default function Home() {
  <Projects/>
  <Contact/>
  <Fotter/>
-
+<div className=''></div>
 
     
   </main>

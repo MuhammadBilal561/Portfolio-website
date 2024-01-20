@@ -8,7 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
-     
+      backgroundImage: {
+        site: "url('../../public/web-bg.jpg')",
+        // about: "url('../../public/myabout.png')",
+        // services: "url('../../public/services.png')",
+      },
     },
   },
   plugins: [],
