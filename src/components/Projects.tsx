@@ -18,9 +18,9 @@ import ProjSec from "../../public/ProjectSectionImage.png"
 const Projects = () => {
   const Projects=[
 {img:Proj1, github_link:"https://github.com/MuhammadBilal561/Blog-Website",live_link:"https://blog-website-psi-sandy.vercel.app/" , name:'Blog Website'},
-{img:Proj2 , github_link:"https://github.com/MuhammadBilal561/hackathon-ecommerce",live_link:"https://hackathon-ecommerce2.vercel.app/", name:"Ecommerce"},
+{img:Proj2 , github_link:"https://github.com/MuhammadBilal561/hackathon-ecommerce",live_link:"https://hackathon-ecommerce-tira.vercel.app/", name:"Ecommerce"},
 
-{img:Proj3 , github_link:"https://github.com/MuhammadBilal561/DummyWebsite-TailGrids",live_link:"dummy-website-tail-grids.vercel.app" , name:'TailGrids-website'},
+{img:Proj3 , github_link:"https://github.com/MuhammadBilal561/DummyWebsite-TailGrids",live_link:"https://dummy-website-tail-grids.vercel.app/" , name:'TailGrids-website'},
 
 {img: Proj4 , github_link:"#",live_link:"#" , name:"..."},
 // {img:"", github_link:"#",live_link:"#"},
