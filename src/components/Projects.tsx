@@ -17,12 +17,12 @@ import ProjSec from "../../public/ProjectSectionImage.png"
 
 const Projects = () => {
   const Projects=[
-{img:Proj1, github_link:"https://github.com/MuhammadBilal561/Blog-Website",live_link:"https://blog-website-psi-sandy.vercel.app/" , name:'Blog Website'},
+{img:Proj1, github_link:"https://github.com/MuhammadBilal561/Business-Website",live_link:"https://business-website-five-gamma.vercel.app/" , name:'Business Website'},
 {img:Proj2 , github_link:"https://github.com/MuhammadBilal561/hackathon-ecommerce",live_link:"https://hackathon-ecommerce-tira.vercel.app/", name:"Ecommerce"},
 
 {img:Proj3 , github_link:"https://github.com/MuhammadBilal561/DummyWebsite-TailGrids",live_link:"https://dummy-website-tail-grids.vercel.app/" , name:'TailGrids-website'},
 
-{img: Proj4 , github_link:"#",live_link:"#" , name:"..."},
+{img: Proj4 , github_link:"https://github.com/MuhammadBilal561/Todo_app_2",live_link:"https://todo-app-2-theta.vercel.app/" , name:"TodoApp"},
 // {img:"", github_link:"#",live_link:"#"},
 
   ]

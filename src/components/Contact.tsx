@@ -31,7 +31,7 @@ className='py-10 px-3 text-white'
               <div className='min-w-[4rem]  text-3xl  min-h-[3.5rem] flex items-center justify-center text-white bg-cyan-600 rounded-full hover:bg-gray-500' >
 <CiMail name='mail'/>
               </div>
-              <p className='text-lg font-mono '> bilalrehan2006@gmail.com</p>
+              <p className='text-lg font-mono '> Bilal561@gmial.com</p>
 
             </div>
             <div className='flex gap-4 w-fit items-center'>
