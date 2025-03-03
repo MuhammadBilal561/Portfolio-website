@@ -2,7 +2,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import hero from "../../public/heroimage.png"
+import hero from "../../public/image3.png"
 import { FaFacebookF, FaLinkedinIn  ,FaGithub} from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
@@ -22,10 +22,12 @@ const Hero = () => {
 <Image
 src={hero}
 alt='hero'
-className='md:w-11/12 h-full object-cover'
+width={500}
+height={500}
+className='m-10  '
 />
         </div>
-        <div className='flex-1'>
+        <div className='flex-1 '>
 <div className='md:text-left text-center'>
     <motion.h1
                   variants={fadeIn("up", 0.3)}
